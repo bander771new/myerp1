@@ -1,0 +1,11 @@
+2022-06-30 04:20:05,997 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for makkah.portal.com
+2022-06-30 04:20:06,045 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for makkah.portal.com
+2022-06-30 04:20:06,167 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for makkah.portal.com
+2022-06-30 04:20:06,214 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for makkah.portal.com
+2022-06-30 04:20:06,416 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for makkah.portal.com
+2022-06-30 04:20:06,463 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for makkah.portal.com
+2022-06-30 04:20:06,621 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for makkah.portal.com
+2022-06-30 04:20:06,670 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for makkah.portal.com
+2022-06-30 04:20:06,830 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for makkah.portal.com
+2022-06-30 04:20:06,877 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for makkah.portal.com
+2022-06-30 04:20:07,007 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for makkah.portal.com

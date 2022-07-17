@@ -1,0 +1,57 @@
+2022-06-29 11:10:03,420 DEBUG cd /home/bench/erpnext && /usr/bin/python3 -m venv env
+2022-06-29 11:10:06,127 DEBUG cd /home/bench/erpnext && /home/bench/erpnext/env/bin/python -m pip install --quiet --upgrade pip
+2022-06-29 11:10:12,915 LOG Getting frappe
+2022-06-29 11:10:12,915 DEBUG cd erpnext/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2022-06-29 11:10:23,169 LOG Installing frappe
+2022-06-29 11:10:23,169 DEBUG cd /home/bench/erpnext && /home/bench/erpnext/env/bin/python -m pip install --quiet --upgrade -e /home/bench/erpnext/apps/frappe 
+2022-06-29 11:12:50,319 DEBUG cd /home/bench/erpnext/apps/frappe && yarn install
+2022-06-29 11:13:49,855 DEBUG cd erpnext && bench build
+2022-06-29 11:13:49,984 INFO /usr/local/bin/bench build
+2022-06-29 11:13:56,000 LOG setting up backups
+2022-06-29 11:13:56,014 LOG backups were set up
+2022-06-29 11:13:56,014 INFO Bench erpnext initialized
+2022-06-29 11:16:05,038 INFO /usr/local/bin/bench new-site makkah.portal.com
+2022-06-29 11:33:46,492 INFO /usr/local/bin/bench get-app --branch version-13 https://github.com/frappe/erpnext.git
+2022-06-29 11:33:47,100 LOG Getting erpnext
+2022-06-29 11:33:47,100 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2022-06-29 11:33:58,338 LOG Installing erpnext
+2022-06-29 11:33:58,338 DEBUG cd /home/bench/erpnext && /home/bench/erpnext/env/bin/python -m pip install --quiet --upgrade -e /home/bench/erpnext/apps/erpnext 
+2022-06-29 11:42:12,950 DEBUG cd /home/bench/erpnext/apps/erpnext && yarn install
+2022-06-29 11:42:15,560 DEBUG bench build --app erpnext
+2022-06-29 11:42:15,692 INFO /usr/local/bin/bench build --app erpnext
+2022-06-29 11:43:16,173 INFO /usr/local/bin/bench --site makkah.portal.com install-app erpnext
+2022-06-29 11:49:28,454 INFO /usr/local/bin/bench start
+2022-06-29 11:49:29,449 INFO /usr/local/bin/bench worker --queue long
+2022-06-29 11:49:29,510 INFO /usr/local/bin/bench schedule
+2022-06-29 11:49:29,554 INFO /usr/local/bin/bench worker --queue short
+2022-06-29 11:49:29,562 INFO /usr/local/bin/bench watch
+2022-06-29 11:49:29,592 INFO /usr/local/bin/bench serve --port 8000
+2022-06-29 11:49:29,638 INFO /usr/local/bin/bench worker --queue default
+2022-06-29 11:57:28,086 INFO /usr/local/bin/bench start
+2022-06-29 11:57:29,037 INFO /usr/local/bin/bench worker --queue default
+2022-06-29 11:57:29,104 INFO /usr/local/bin/bench worker --queue long
+2022-06-29 11:57:29,140 INFO /usr/local/bin/bench serve --port 8000
+2022-06-29 11:57:29,173 INFO /usr/local/bin/bench schedule
+2022-06-29 11:57:29,214 INFO /usr/local/bin/bench worker --queue short
+2022-06-29 11:57:29,239 INFO /usr/local/bin/bench watch
+2022-06-29 12:00:01,182 INFO /usr/local/bin/bench --verbose --site all backup
+2022-06-29 14:24:13,205 INFO /usr/local/bin/bench start
+2022-06-29 14:24:14,378 INFO /usr/local/bin/bench watch
+2022-06-29 14:24:14,402 INFO /usr/local/bin/bench schedule
+2022-06-29 14:24:14,424 INFO /usr/local/bin/bench worker --queue default
+2022-06-29 14:24:14,540 INFO /usr/local/bin/bench worker --queue long
+2022-06-29 14:24:14,553 INFO /usr/local/bin/bench worker --queue short
+2022-06-29 14:24:14,553 INFO /usr/local/bin/bench serve --port 8000
+2022-06-29 18:00:01,323 INFO /usr/local/bin/bench --verbose --site all backup
+2022-06-30 00:00:02,155 INFO /usr/local/bin/bench --verbose --site all backup
+2022-06-30 06:00:01,839 INFO /usr/local/bin/bench --verbose --site all backup
+2022-06-30 12:00:01,578 INFO /usr/local/bin/bench --verbose --site all backup
+2022-07-17 08:56:50,853 INFO /usr/local/bin/bench
+2022-07-17 08:56:51,673 INFO A newer version of bench is available: 5.11.0 → 5.12.1
+2022-07-17 08:56:56,124 INFO /usr/local/bin/bench start
+2022-07-17 08:56:57,322 INFO /usr/local/bin/bench watch
+2022-07-17 08:56:57,324 INFO /usr/local/bin/bench worker --queue short
+2022-07-17 08:56:57,405 INFO /usr/local/bin/bench worker --queue default
+2022-07-17 08:56:57,440 INFO /usr/local/bin/bench worker --queue long
+2022-07-17 08:56:57,471 INFO /usr/local/bin/bench schedule
+2022-07-17 08:56:57,483 INFO /usr/local/bin/bench serve --port 8000

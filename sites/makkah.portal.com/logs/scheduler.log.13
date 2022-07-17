@@ -1,0 +1,15 @@
+2022-06-30 02:44:32,501 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for makkah.portal.com
+2022-06-30 02:44:32,550 INFO scheduler Scheduled Job Start: frappe.monitor.flush for makkah.portal.com
+2022-06-30 02:44:32,670 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for makkah.portal.com
+2022-06-30 02:44:32,717 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for makkah.portal.com
+2022-06-30 02:44:32,839 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for makkah.portal.com
+2022-06-30 02:44:32,888 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for makkah.portal.com
+2022-06-30 02:44:33,094 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for makkah.portal.com
+2022-06-30 02:44:33,142 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for makkah.portal.com
+2022-06-30 02:44:33,299 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for makkah.portal.com
+2022-06-30 02:44:33,347 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for makkah.portal.com
+2022-06-30 02:44:33,510 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for makkah.portal.com
+2022-06-30 02:44:33,558 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for makkah.portal.com
+2022-06-30 02:44:33,688 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for makkah.portal.com
+2022-06-30 02:45:32,137 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for makkah.portal.com
+2022-06-30 02:45:32,304 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for makkah.portal.com
